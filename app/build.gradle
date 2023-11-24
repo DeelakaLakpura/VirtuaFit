@@ -12,7 +12,6 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -40,4 +39,8 @@ dependencies {
     //lottie animation implementation
     def lottieVersion = "3.4.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    //ARCore implementation
+    implementation 'com.google.ar:core:1.33.0'
+
 }
