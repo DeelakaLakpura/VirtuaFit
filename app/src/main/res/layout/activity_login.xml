@@ -7,13 +7,13 @@
     tools:context=".Authentication.LoginActivity">
 
 
-
     <View
         android:layout_width="match_parent"
         android:layout_height="220dp"
-        android:backgroundTint="@color/green1"
-
-        android:background="@drawable/blue_bg"/>
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/blue_bg"
+        android:backgroundTint="@color/green1" />
 
     <TextView
         android:id="@+id/slidingTextView"
@@ -223,7 +223,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Log in with Facebook"/>
+                 />
 
                     <!-- Gmail Login Button -->
                     <com.google.android.gms.common.SignInButton
@@ -234,7 +234,7 @@
                         android:layout_gravity="center"
                         android:layout_marginStart="10dp"
                         android:layout_toEndOf="@+id/facebookLoginButton"
-                        android:text="Log in with Google" />
+                     />
 
                     <!-- Or use a regular Button for custom login -->
 
@@ -255,13 +255,15 @@
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/login_btn"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/button_shape"
                     android:text="Sign In"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:backgroundTint="@color/green1"
                     android:textColor="@color/white"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
