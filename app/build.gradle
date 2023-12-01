@@ -55,4 +55,7 @@ dependencies {
     //ARCore implementation
     implementation 'com.google.ar:core:1.40.0'
 
+    //Facebook Authentication implementation
+    implementation 'com.facebook.android:facebook-login:latest.release'
+
 }

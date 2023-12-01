@@ -69,7 +69,7 @@
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
-            <com.airbnb.lottie.LottieAnimationView
+            <View
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="221dp"
@@ -236,6 +236,7 @@
                         android:layout_toEndOf="@+id/facebookLoginButton"
                      />
 
+                 
                     <!-- Or use a regular Button for custom login -->
 
                 </RelativeLayout>

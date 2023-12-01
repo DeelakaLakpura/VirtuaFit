@@ -6,4 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Authentication.RegisterActivity">
 
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
